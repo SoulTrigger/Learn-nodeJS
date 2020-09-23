@@ -1,0 +1,11 @@
+::1 - - [22/Sep/2020:01:59:53 +0000] "GET /api/persons HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+GET /api/persons 304  - 2.974 ms [object Object]
+GET /api/persons 304  - 5.173 ms {}
+POST /api/persons 200 9 - 1.082 ms {"name":"wlwlwlwlw","number":"39-99-5323523","id":383}
+GET /persons 404 28 - 3.721 ms {}
+GET /api/persons 200 219 - 5.439 ms {}
+GET /persons 404 28 - 1.584 ms {}
+GET /api/persons 304  - 0.717 ms {}
+GET / 404 28 - 5.043 ms {}
+GET /favicon.ico 404 28 - 0.248 ms {}
+GET /api/persons 200 219 - 1.276 ms {}
